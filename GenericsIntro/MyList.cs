@@ -28,5 +28,14 @@ namespace GenericsIntro
             items[items.Length - 1] = item; // artık sonuncu elamını items arrayının sonuncu elmanına ekleyebilriz.
         }
 
+        public int  Lentgh
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
     }
 }
